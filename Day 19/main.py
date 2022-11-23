@@ -21,7 +21,7 @@ if user_bet:
     is_race_on = True
 while is_race_on:
     for tuktuk in all_turtles:
-        if tuktuk.xcor() > 220:
+        if tuktuk.xcor() > 210:
             is_race_on = False
             wining_color = tuktuk.pencolor()
             if wining_color == user_bet:
